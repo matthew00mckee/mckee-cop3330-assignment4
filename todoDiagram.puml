@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ListController {
+    + main()
+    + start()
+}
+
+class ListEditor {
+    - printListTitle : TextField
+    - printTaskTitle : TextField
+    - printTaskDescription : TextField
+    - printDueDate : TextField
+
+    + viewList()
+    + editList()
+    + deleteList()
+    + newList()
+    + checkList()
+    + saveList()
+}
+class TaskEditor {
++ newTask()
+    + editTask()
+    + saveTask()
+    + deleteTask()
+    + checkTask()
+    + markCompleted()
+}
+
+javafx.ListManager <|-- ListController
+ListController -> ListEditor
+ListEditor <-> TaskEditor
+
+@enduml
