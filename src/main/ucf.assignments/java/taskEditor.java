@@ -11,10 +11,10 @@ import java.awt.*;
 public class taskEditor {
     @FXML
     public void editTask(ActionEvent action) {
-        editTask();
+        taskEditor();
     }
 
-    public void editTask() {
+    public void taskEditor() {
         // Check if a task is selected with the checktaskSelected()
         // change the title
         // change the task description
@@ -33,7 +33,7 @@ public class taskEditor {
     }
 
     @FXML
-    public void checkTaskselected(ActionEvent action) {
+    public void checkTaskSelected(ActionEvent action) {
         SelectedTask();
     }
 

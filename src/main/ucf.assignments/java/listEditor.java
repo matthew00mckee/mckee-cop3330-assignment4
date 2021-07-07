@@ -16,7 +16,7 @@ public class listEditor {
     private TextField printDueDate;
 
     @FXML
-    public void viewList(ActionEvent actionEvent) {
+    public void viewList(ActionEvent action) {
         showList();
     }
 
@@ -27,7 +27,7 @@ public class listEditor {
     }
 
     @FXML
-    public void editList(ActionEvent actionEvent) {
+    public void editList(ActionEvent action) {
         listEdit();
     }
 
@@ -39,7 +39,7 @@ public class listEditor {
     }
 
     @FXML
-    public void deleteList(ActionEvent actionEvent) {
+    public void deleteList(ActionEvent action) {
         listDeletinator();
     }
 
@@ -50,7 +50,7 @@ public class listEditor {
     }
 
     @FXML
-    public void newList(ActionEvent actionEvent) {
+    public void newList(ActionEvent action) {
         addList();
     }
 
@@ -62,7 +62,7 @@ public class listEditor {
     }
 
     @FXML
-    public void listSelector(ActionEvent actionEvent) {
+    public void listSelector(ActionEvent action) {
         isListSelected();
     }
 
@@ -73,7 +73,7 @@ public class listEditor {
     }
 
     @FXML
-    public void saveList(ActionEvent actionEvent) {
+    public void saveList(ActionEvent action) {
         listSave();
     }
 
