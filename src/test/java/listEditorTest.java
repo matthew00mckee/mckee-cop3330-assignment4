@@ -1,6 +1,9 @@
-import org.junit.jupiter.api.Test;
+/*
+ *  UCF COP3330 Summer 2021 Assignment 4 Solution
+ *  Copyright 2021 Matthew McKee
+ */
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 public class listEditorTest {
 

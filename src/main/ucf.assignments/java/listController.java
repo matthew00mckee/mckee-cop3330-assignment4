@@ -1,4 +1,7 @@
-
+/*
+ *  UCF COP3330 Summer 2021 Assignment 4 Solution
+ *  Copyright 2021 Matthew McKee
+ */
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -16,7 +19,7 @@ public class listController extends Application() {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("listController.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("app.fxml"));
 
         Scene scene = new Scene(root);
 
